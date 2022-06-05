@@ -14,6 +14,7 @@ export default function App() {
     <div className="container">
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <Body darkMode={darkMode} />
+      <div className="card-row"></div>
     </div>
   );
 }
